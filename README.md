@@ -18,3 +18,7 @@ En este caso se definen los pines de salida y de entrada del arduino, el led se 
 Para verificar la entrada del pulsador, se define una variable en el loop booleana para que lea el estado actual del pulsador, luego se imprime el valor de esta variable en el monitor serial para evidencia en tiempo real si cambia su estado al presionarse. El ciclo if se activa con la condición de que el pulsador se encuentre en LOW, es decir cuando se deja de presionar y sí el último estado del mismo se encontraba en HIGH, en pocas palabras el ciclo se activa cuando se presiona una sola vez el pulsador. Se hace una igualación para cambiar el estado del led, dependiendo si se encuentra encendido o apagado lo que hace es cambiar este estado. Finalmente fuera del ciclo lo que se hace es actualizar el último estado del pulsador igualando las variables de Uestado con PulEstado.
 
 ![Loop](https://github.com/johanerre/Arduino-Retos/blob/main/IMÁGENES/Captura%20de%20pantalla%202025-09-06%20212332.png)
+
+## Montaje
+
+![Montaje](https://github.com/johanerre/Arduino-Retos/blob/main/IMÁGENES/Captura%20de%20pantalla%202025-09-06%20221143.png)
